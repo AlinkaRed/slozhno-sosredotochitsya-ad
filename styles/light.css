@@ -1,37 +1,43 @@
-.page.theme_light {
-  --accent-color: #FF8DCB;
-  --main-bg-color: #FFF1F7;
-  --main-text-color: #353430;
-  --nav-color: #353430;
-  --hover-button-color: #32312D66;
-  --main-heading-color: #353430;
-  --section-heading-color: #353430;
-  --header-logo-color: #ffc2e6;
-  --footer-logo-color: #ffc2e6;
-  background-image: url(../images/cover-image-light.png);
+:root.theme-light {
+  --accent-color: rgba(255, 141, 203, 1);
+  --button-hover-outline: rgba(50, 49, 45, 0.4);
+  --header-color: rgba(255, 194, 230, 1);
+  --shadow-color: rgba(255, 141, 203, 1);
+  --title-decor-bg-color: rgba(255, 141, 203, 1);
+  --title-decor-text-color: rgba(53, 52, 48, 1);
+  --bg-image: url("../images/cover-image-light.png");
+  --not-accent-color: rgba(53, 52, 48, 1);
+  --link-shadow-color: rgba(255, 141, 203, 1);
+  --bg-color: #fff1f7;
+  --visible: hidden;
 }
 
-.theme_light .header__rec {
-  display: none;
+.theme-light .page {
+  --accent-color: rgba(255, 141, 203, 1);
+  --button-hover-outline: rgba(50, 49, 45, 0.4);
+  --header-color: rgba(255, 194, 230, 1);
+  --shadow-color: rgba(255, 141, 203, 1);
+  --title-decor-bg-color: rgba(255, 141, 203, 1);
+  --title-decor-text-color: rgba(53, 52, 48, 1);
+  --bg-image: url("../images/cover-image-light.png");
+  --not-accent-color: rgba(53, 52, 48, 1);
+  --link-shadow-color: rgba(255, 141, 203, 1);
+  --bg-color: #fff1f7;
+  --visible: hidden;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    --accent-color: #FF8DCB;
-    --main-bg-color: #FFF1F7;
-    --main-text-color: #353430;
-    --nav-color: #353430;
-    --main-heading-color: #353430;
-    --section-heading-color: #353430;
-    --header-logo-color: #ffc2e6;
-    --footer-logo-color: #ffc2e6;
-  }
-  
   .page {
-  background-image: url(../images/cover-image-light.png);
-  }
-
-  .header__rec {
-    display: none;
+  --accent-color: rgba(255, 141, 203, 1);
+  --button-hover-outline: rgba(50, 49, 45, 0.4);
+  --header-color: rgba(255, 194, 230, 1);
+  --shadow-color: rgba(255, 141, 203, 1);
+  --title-decor-bg-color: rgba(255, 141, 203, 1);
+  --title-decor-text-color: rgba(53, 52, 48, 1);
+  --bg-image: url("../images/cover-image-light.png");
+  --not-accent-color: rgba(53, 52, 48, 1);
+  --link-shadow-color: rgba(255, 141, 203, 1);
+  --bg-color: #fff1f7;
+  --visible: hidden;
   }
 }

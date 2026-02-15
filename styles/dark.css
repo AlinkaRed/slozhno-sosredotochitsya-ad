@@ -1,16 +1,27 @@
-.page.theme_dark {
+:root.theme-dark {
   --accent-color: #FF0070;
-  --main-bg-color: #00183F;
-  --main-text-color: #F1b2ce;
-  --nav-color: #FF0070;
-  --hover-button-color: #FF007066;
-  --main-heading-color: #00183F;
-  --section-heading-color: #FF0070;
-  --header-logo-color: #DB00FF;
-  --footer-logo-color: #DB00FF;
-  background-image: url(../images/cover-image-dark.png);
+  --button-hover-outline: rgba(255, 0, 112, 0.4);
+  --header-color: rgba(219, 0, 255, 1);
+  --shadow-color: #FF0070;
+  --title-decor-bg-color: rgba(255, 0, 112, 1);
+  --title-decor-text-color: rgba(0, 0, 40, 1);
+  --bg-image: url("../images/cover-image-dark.png");
+  --not-accent-color: rgba(241, 178, 206, 1);
+  --link-shadow-color: #ff0070;
+  --bg-color: #000028;
+  --visible: visible;
 }
 
-.theme_dark .header__rec {
-  display: block;
+.theme-dark .page {
+  --accent-color: #FF0070;
+  --button-hover-outline: rgba(255, 0, 112, 0.4);
+  --header-color: rgba(219, 0, 255, 1);
+  --shadow-color: #FF0070;
+  --title-decor-bg-color: rgba(255, 0, 112, 1);
+  --title-decor-text-color: rgba(0, 0, 40, 1);
+  --bg-image: url("../images/cover-image-dark.png");
+  --not-accent-color: rgba(241, 178, 206, 1);
+  --link-shadow-color: #ff0070;
+  --bg-color: #000028;
+  --visible: visible;
 }
